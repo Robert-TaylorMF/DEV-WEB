@@ -19,6 +19,7 @@ input, select, button {
     width: 200px;
   }
 
+  /* Classes */
 
 .valor{
     display: flex;
@@ -39,3 +40,9 @@ input, select, button {
     color: #f5ecec;
   }
 
+
+/* ID´s */
+
+#resultado {
+    width: 600px;
+}
