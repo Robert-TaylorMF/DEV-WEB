@@ -1,4 +1,8 @@
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(14, 13, 13, 0.863);
 }
 
@@ -9,6 +13,29 @@ h1{
     text-align: center;
 }
 
+input, select, button {
+    margin: 10px 0;
+    padding: 8px;
+    width: 200px;
+  }
+
+
 .valor{
     display: flex;
 }
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+
+  .titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #f5ecec;
+  }
+
