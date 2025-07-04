@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(14, 13, 13, 0.863);
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.valor{
+    display: flex;
+}
