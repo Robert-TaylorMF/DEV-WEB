@@ -1,9 +1,9 @@
 body{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(14, 13, 13, 0.863);
+    flex-direction: column; /* Coloca cada elemento em sua linha */
+    justify-content: center; /* Justifica os elementos no centro da tela */
+    align-items: center; /* Alinha os elementos no centro da página */
+    background-color: rgba(55, 23, 63, 0.863);
 }
 
 h1{
