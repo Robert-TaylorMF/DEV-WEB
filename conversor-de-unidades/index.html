@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html>
     <body>
+        <head>
+            <link href="style.css" rel="stylesheet"/>
+            <title>Conversor de Unidades</title>
+        </head>
         <h1>Conversor de Unidades</h1>
+        <input type="number" id="valor" placeholder="Insira o valor...">
+        <select id="unidade">
+            <option value="cmToMet">Centimentros → Metros</option>
+            <option value="metToCm">Metros → Centimentros</option>
+        </select>
+        <button onclick="converter()">Converter</button> <br>
+        <input id="resultado" name="resultado" readonly>
+        <script src="script.js"></script>
     </body>
 </html>
