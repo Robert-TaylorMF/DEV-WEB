@@ -5,14 +5,16 @@
             <link href="style.css" rel="stylesheet"/>
             <title>Conversor de Unidades</title>
         </head>
-        <h1>Conversor de Unidades</h1>
-        <input type="number" id="valor" placeholder="Insira o valor...">
-        <select id="unidade">
-            <option value="cmToMet">Centimentros → Metros</option>
-            <option value="metToCm">Metros → Centimentros</option>
-        </select>
-        <button onclick="converter()">Converter</button> <br>
-        <input id="resultado" name="resultado" readonly>
+        <h1 class="titulo">Conversor de Unidades</h1>
+        <div class="container">
+            <input type="number" id="valor" placeholder="Insira o valor...">
+            <select id="unidade">
+                <option value="cmToMet">Centimentros → Metros</option>
+                <option value="metToCm">Metros → Centimentros</option>
+            </select>
+            <button onclick="converter()">Converter</button> <br>
+            <input id="resultado" name="resultado" readonly>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
